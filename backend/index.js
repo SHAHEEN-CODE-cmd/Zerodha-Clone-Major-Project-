@@ -9,13 +9,15 @@ const {HoldingsModel}=require("./model/holdingsModel.js");
 const {PositionsModel}=require("./model/PositionsModel.js");
 const {OrdersModel}=require("./model/OrdersModel.js");
 
+const app = express();
+
 const PORT=process.env.PORT || 3002;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
 });
 const uri=process.env.MONGO_URL;
 
-const app = express();
+
 
 app.use(express.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
