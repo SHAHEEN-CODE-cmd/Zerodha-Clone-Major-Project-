@@ -10,6 +10,9 @@ const {PositionsModel}=require("./model/PositionsModel.js");
 const {OrdersModel}=require("./model/OrdersModel.js");
 
 const PORT=process.env.PORT || 3002;
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
 const uri=process.env.MONGO_URL;
 
 const app = express();
@@ -216,7 +219,7 @@ app.post("/newOrder", async (req, res) => {
   }
 
   try {
-    const newOrder = new OrderModel(req.body);
+    const newOrder = new OrdersModel(req.body);
     await newOrder.save();
     res.status(201).send("Order placed successfully");
   } catch (err) {
