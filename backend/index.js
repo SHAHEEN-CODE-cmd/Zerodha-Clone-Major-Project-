@@ -16,6 +16,10 @@ const uri = process.env.MONGO_URL;
 app.use(express.json());
 app.use(cors());
 
+  app.get('/', (req, res) => {
+  res.send('Zerodha Clone Backend is running');
+});
+
 app.get("/allHoldings", async (req, res) => {
   let allHoldings = await HoldingsModel.find({});
   res.json(allHoldings);
@@ -32,6 +36,8 @@ app.post("/newOrder", async (req, res) => {
   if (!req.body || !req.body.name) {
     return res.status(400).send("Missing required fields");
   }
+
+
 
   try {
     const newOrder = new OrdersModel(req.body);
