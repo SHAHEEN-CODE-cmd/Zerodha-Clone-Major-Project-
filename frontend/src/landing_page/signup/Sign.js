@@ -9,7 +9,7 @@ function Sign(){
           className="p-2 btn btn-primary fs-5 mb-5"
           style={{ width: "20%", margin: "0 auto" }}
         >
-          <a href="http://localhost:3001/" style={{textDecoration:"none", color:"white"}}>Sign up now</a>
+          <a href="https://dashboard-rbou.onrender.com/" style={{textDecoration:"none", color:"white"}}>Sign up now</a>
         </button>
       </div>
     </div>
