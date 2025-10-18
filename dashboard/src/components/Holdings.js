@@ -50,6 +50,7 @@ const Holdings = () => {
 
       <div className="order-table">
         <table>
+          <tbody>
           <tr>
             <th>Instrument</th>
             <th>Qty.</th>
@@ -60,6 +61,7 @@ const Holdings = () => {
             <th>Net chg.</th>
             <th>Day chg.</th>
           </tr>
+          </tbody>
 
           {allHoldings.map((stock, index) => {
             const curValue = stock.price * stock.qty;
