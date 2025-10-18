@@ -16,8 +16,9 @@ const uri = process.env.MONGO_URL;
 app.use(express.json());
 // THIS IS THE NEW CODE TO ADD
 const allowedOrigins = [
-  'https://zerodha-clone-major-project-2.onrender.com', // Your deployed frontend
-  'http://localhost:3001'                               // Your local frontend for development
+  'https://zerodha-clone-major-project-2.onrender.com', // Your deployed backend
+  'http://localhost:3001',                               // Your local frontend for development
+  'https://zerodha-clone-major-project-3.onrender.com'  // Your frontend deployed
 ];
 
 app.use(cors({
