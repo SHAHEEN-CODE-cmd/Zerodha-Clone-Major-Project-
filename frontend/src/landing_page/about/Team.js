@@ -12,37 +12,53 @@ function Team() {
       >
         <div className="col-6 p-3 text-center">
           <img
-            src="media/nithinKamath.jpg"
-            alt="Nithin Kamath"
-            style={{ width: "50%", borderRadius: "100%" }}
+            src="media/ph.jpg"
+            alt="Shaheen Khan"
+            style={{ width: "50%", borderRadius: "90%" }}
           />
-          <h4 className="mt-5">Nikhil Kamath</h4>
+          <h4 className="mt-5">Shaheen Khan</h4>
           <h6>Co-founder &amp; Director</h6>
+      
+      <br></br>
+      <h2>Full Stack Web Developer</h2>
         </div>
 
         <div className="col-6 p-5">
           <p>
-            Nithin bootstrapped and founded Zerodha in 2010 to overcome the
-            hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.
+            Hi, I'm Shaheen — a resilient and methodical full-stack web
+            developer currently pursuing B.Tech in Computer Science &
+            Engineering. I specialize in building dynamic, user-friendly
+            applications using React, Node.js, Express, MongoDB, and SQL, with a
+            strong focus on backend validation, frontend logic, and deployment
+            workflows.
           </p>
           <p>
-            He is a member of the SEBI Secondary Market Advisory Committee
-            (SMAC) and the Market Data Advisory Committee (MDAC).
+            💡 I thrive on solving real-world coding challenges, debugging
+            infrastructure-level issues (SSL, npm, MongoDB Atlas), and writing
+            clear documentation that makes my projects accessible and impactful.
+            Whether it's restoring broken test setups, deploying to Netlify, or
+            refining order placement flows in dashboards, I approach every task
+            with persistence and precision.
           </p>
-          <p>Playing basketball is his zen.</p>
+          <p>
+            📦 My GitHub showcases projects that reflect my commitment to clean
+            architecture, robust API testing (Thunder Client, Postman), and
+            public portfolio building. I'm actively preparing for prestigious
+            internships at IITs by polishing my work and making it visible to
+            the world.
+          </p>
           <p>
             Connect on{" "}
-            <a href="" style={{ textDecoration: "none" }}>
-              Homepage
+            <a href="https://shaheen-code-cmd.github.io/Portfolio-website/" style={{ textDecoration: "none" }}>
+              Homepage-Portfolio
             </a>{" "}
             /{" "}
-            <a href="" style={{ textDecoration: "none" }}>
-              TradingQnA
+            <a href="https://www.linkedin.com/in/shaheen-khan-3a864b314/" style={{ textDecoration: "none" }}>
+              LinkedIn
             </a>{" "}
             /{" "}
-            <a href="" style={{ textDecoration: "none" }}>
-              Twitter
+            <a href="https://github.com/SHAHEEN-CODE-cmd" style={{ textDecoration: "none" }}>
+              GitHub
             </a>
           </p>
         </div>
